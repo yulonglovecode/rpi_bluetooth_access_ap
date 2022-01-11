@@ -1,4 +1,4 @@
--packages need to be installed 
+**-packages need to be installed** 
 pip install from os import curdir, sep
 sudo apt-get install hostapd
 sudo apt-get install dnsmasq
@@ -7,11 +7,11 @@ sudo apt-get install dnsmasq
 -add infroamtion for static ip under /etc/dnsmasq.conf
 
 
--to close the web socket 
+**-to close the web socket**  
 ps -fA | grep python
 kill the pid number accordingly
  
--files need to transfer to /etc/ from ~/gpf
+**-files need to transfer to /etc/ from ~/gpf
 -dhcpcd_nonwifi.ap
 -dhcpcd_wifi.ap
 -dnsmasq.conf
