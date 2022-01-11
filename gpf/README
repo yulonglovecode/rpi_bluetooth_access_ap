@@ -1,0 +1,20 @@
+-packages need to be installed 
+pip install from os import curdir, sep
+sudo apt-get install hostapd
+sudo apt-get install dnsmasq
+
+-add information for ap mode under /etc/hostapd/hostapd.conf
+-add infroamtion for static ip under /etc/dnsmasq.conf
+
+
+-to close the web socket 
+ps -fA | grep python
+kill the pid number accordingly
+ 
+-files need to transfer to /etc/ from ~/gpf
+-dhcpcd_nonwifi.ap
+-dhcpcd_wifi.ap
+-dnsmasq.conf
+
+
+-i have set the static ip to be 192.168.0.1:8080 
