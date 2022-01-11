@@ -1,4 +1,4 @@
-**-packages need to be installed** 
+-packages need to be installed
 pip install from os import curdir, sep
 sudo apt-get install hostapd
 sudo apt-get install dnsmasq
